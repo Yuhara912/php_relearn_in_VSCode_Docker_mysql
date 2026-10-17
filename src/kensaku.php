@@ -10,9 +10,9 @@
 	$code=$_POST['code'];
 
 
-	$dsn='mysql:dbname=phpkiso;host=localhost;charset=utf8';
+	$dsn='mysql:dbname=db_php_relearn;host=db_php_relearn;charset=utf8';
 	$user='root';
-	$password='';
+	$password='root';
 	$dbh=new PDO($dsn,$user,$password);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
